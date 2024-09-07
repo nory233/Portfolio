@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noor Salama's Portfolio</title>
+    <!-- Link to Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Basic CSS for layout and style */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8f4; /* Light green background */
+            color: #333;
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+
+        header {
+            background: linear-gradient(135deg, #a3c4f4, #c3e3b1); /* Blue and green gradient */
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            font-family: 'Playfair Display', serif; /* Fancy font for the header */
+        }
+
+        header img {
+            position: absolute;
+            top: 15px;
+            left: 20px;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        header h1 {
+            font-size: 3rem; /* Larger and more prominent title */
+            margin: 0;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for better readability */
+            font-family: 'Playfair Display', serif; /* Fancy font for headings */
+        }
+
+        nav {
+            background-color: #a3c4f4; /* Blue color */
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #333; /* Dark text for better readability */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: 600; /* Medium weight for links */
+            font-family: 'Poppins', sans-serif; /* Fancy font for links */
+            transition: background-color 0.3s ease, color 0.3s ease; /* Smooth color transition */
+        }
+
+        nav a:hover {
+            background-color: #8ab4f8; /* Lighter blue for hover */
+            color: white; /* White text on hover */
+            border-radius: 5px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2, h3 {
+            font-family: 'Playfair Display', serif; /* Fancy font for section headings */
+        }
+
+        p, ul {
+            font-family: 'Poppins', sans-serif; /* Fancy font for body text */
+        }
+
+        footer {
+            background-color: #d4e1c8; /* Matcha green */
+            color: #333;
+            text-align: center;
+            padding: 12px 0;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-media {
+            margin-top: 20px;
+        }
+
+        .social-media a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 10px;
+            font-size: 18px;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .social-media a:hover {
+            color: #a3c4f4; /* Matching navigation color */
+        }
+
+        ul {
+            list-style: none; /* Remove default bullets */
+            padding: 0;
+        }
+
+        ul li {
+            background: #c3e3b1; /* Matcha green background for list items */
+            color: #333; /* Dark text for better readability */
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+            }
+            nav a {
+                padding: 10px;
+            }
+
+            header img {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/images.jpg" alt="Noor Salama" style="width:158px;height:158px;">
+        <h1>Noor Salama</h1>
+        <p>Computer Science Engineer Graduate & Enthusiast</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills & Achievements</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I’m Noor Salama, a Computer Science Engineer who graduated with distinction from the Technical University of Sofia.
+                I am passionate about technology and innovation, with expertise in programming, UX/UI design, and cloud solutions. 
+                During my academic journey, I developed an AR application that allows users to visualize furniture in their spaces before purchasing, using Unity, AR Foundation, and Azure. 
+                I am always eager to explore new challenges and am currently open to work opportunities where I can apply my skills and contribute to meaningful projects.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Achievements</h2>
+            <h3>Skills:</h3>
+            <ul>
+                <li>Programming Languages: Python, C#, Java, HTML, CSS, JavaScript</li>
+                <li>UX/UI Design: Figma, Adobe XD</li>
+                <li>Empathy Mapping, Personas, User Stories</li>
+                <li>Wireframing, Prototyping</li>
+                <li>Knowledge in Azure</li>
+                <li>MS Office: Word, PowerPoint, Excel</li>
+                <li>Strong Management and Leadership Skills</li>
+            </ul>
+            <h3>Achievements:</h3>
+            <ul>
+                <li>Graduated with Distinction</li>
+                <li>Received a Silver Medal</li>
+                <li>Developed an AR app using Unity and AR Foundation</li>
+                <li>Utilized Azure for cloud-based asset management</li>
+            </ul>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <ul>
+                <li>Google UX Design Professional Certificate (Coursera)</li>
+                <li>API and Webservices</li>
+                <li>Relational Database Design and Data Modeling</li>
+                <li>Python Programming Masterclass</li>
+                <li>Data Analysis Fundamentals (Udacity Nanodegree)</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>You can reach me via email at [Your Email] or follow me on my social media profiles:</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/noor-salama-bb4282237/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/nory233" target="_blank">GitHub</a>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Gmail</a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 Noor Salama | All rights reserved</p>
+    </footer>
+
+</body>
+</html>
